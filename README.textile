@@ -9,7 +9,7 @@ h3. HTML/JS
 Texpand is ridiculously simple to use, simply instantiate a new Texpand with either an _id_ of a textarea or the actual textarea and *BAM* you're done.
 
 <pre>
-<code>
+<code class="html">
 <script type="text/javascript">
   document.observe("dom:loaded", function(){
     new Texpand('bio');
