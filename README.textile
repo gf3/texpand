@@ -1,0 +1,39 @@
+h1. Texpand
+
+Texpand is a Prototype-based textarea auto-expander (i.e. the textarea will expand in height as you type).
+
+h2. Usage
+
+h3. HTML/JS
+
+Texpand is ridiculously simple to use, simply instantiate a new Texpand with either an _id_ of a textarea or the actual textarea and *BAM* you're done.
+
+<pre>
+<code>
+<script type="text/javascript">
+  document.observe("dom:loaded", function(){
+    new Texpand('bio');
+  });
+</script>
+...
+<form action="#" method="post">
+  <textarea id="bio" name="bio" rows="3" cols="5"></textarea>
+</form>
+</code>
+</pre>
+
+It's actually that easy. You can apply any kind of styles you want – everything will be taken care of.
+
+h2. Examples
+
+View "the demo":http://code.runlevel6.org/Texpand/. See the _examples/_ directory for demo source.
+
+To see Texpand in production, check out "GigPark":http://www.gigpark.com/.
+
+h2. Author
+
+Written by Gianni Chiappetta - "Runlevel6":http://www.runlevel6.org/
+
+h3. Credits
+
+Thanks to "GigPark":http://www.gigpark.com/ for allowing me to release this!

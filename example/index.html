@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Texpand</title>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" media="screen" href="default.css" />
+  
+  <script src="../vendor/prototype.js" type="text/javascript"></script>
+  <script src="../vendor/scriptaculous.js" type="text/javascript"></script>
+  <script src="../lib/texpand.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    document.observe("dom:loaded", function(){
+      $$('.texpand').each(function(el){
+        new Texpand(el);
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<h1>Prototype: Texpand</h1>
+
+<div id="content">
+  <p>This is a demo. For more information please see <a href="http://github.com/giannichiappetta/texpand">http://github.com/giannichiappetta/texpand</a>.</p>
+  <form action="#" method="get">
+    <div class="row">
+      <label for="comment">Comment</label>
+      <textarea name="comment" id="comment" cols="100" rows="5" class="texpand">Go ahead, enter some text!</textarea>
+    </div>
+  </form>
+</div>
+
+</div>
+
+</body>
+</html>

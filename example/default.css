@@ -1,0 +1,103 @@
+/*
+	Site: Default styling
+	Date: 
+	Author: Gianni Chiappetta
+	Description: base style sheet
+	Author Notes:	
+
+	WEB COLORS USED FOR THIS SITE
+	---------------------------------------------------------------------
+	#000000		Color			Used for: 
+	#000000		Color			Used for: 
+	#000000		Color			Used for: 	
+	---------------------------------------------------------------------
+*/
+
+/************/
+/* ELEMENTS */
+/************/
+
+body {
+  margin: 0;
+  font-family: Helvetica, Verdana, sans-serif;
+  background-color: #e8e8e8;
+  color: #444;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.2em;
+  font-size: 1.2em;
+}
+
+a:link { text-decoration: none; color: #a60203; }
+a:visited { text-decoration: none; color: #a60203; }
+a:hover { text-decoration: underline; color: #FC0000; }
+a:active { text-decoration: none; color: #a60203; }
+
+a img { border: 0; }
+
+/************/
+/*  LAYOUT  */
+/************/
+
+/*------------------------- Wrapper -------------------------*/
+#wrapper {
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  width: 940px;
+  background-color: #FFF;
+}
+
+#wrapper h1 {
+  margin: 0 0 1em 0;
+  padding: 20px 10px;
+  background-color: #000;
+  color: #FFF;
+}
+
+#wrapper #content {
+  padding: 0 10px;
+}
+
+/*------------------------- Form -------------------------*/
+label {
+  display: block;
+  font-size: 50%;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
