@@ -33,6 +33,7 @@ To see Texpand in production, check out "GigPark":http://www.gigpark.com/.
 h2. Author
 
 Written by Gianni Chiappetta - "Runlevel6":http://www.runlevel6.org/
+Contributions by Rob Sterner - "robsterner.com":http://robsterner.com
 
 h3. Credits
 
