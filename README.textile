@@ -38,11 +38,8 @@ Written by Gianni Chiappetta - "Runlevel6":http://www.runlevel6.org/
 
 Contributions by Rob Sterner - "robsterner.com":http://robsterner.com/
 
+And a special thanks to tfluehr from #prototype.
+
 h3. Credits
 
 Thanks to "GigPark":http://www.gigpark.com/ for allowing me to release this!
-
-<script type="text/javascript" src="http://script.aculo.us/github/highlight.js"></script>
-<script type="text/javascript">
-  hljs.initHighlightingOnLoad.apply(null, hljs.ALL_LANGUAGES);
-</script>
