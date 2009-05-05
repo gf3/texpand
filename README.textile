@@ -1,10 +1,18 @@
-<link rel="stylesheet" title="Sunburst" href="http://script.aculo.us/github/styles/sunburst.css"/>
-<script type="text/javascript" src="http://script.aculo.us/prototype.js"></script>
-<script type="text/javascript" src="http://script.aculo.us/scriptaculous.js"></script>
-
 h1. Texpand
 
 Texpand is a Prototype-based textarea auto-expander (i.e. the textarea will expand in height as you type).
+
+h2. Compatibility
+
+Texpand has been tested and is known to work in the following browsers:
+
+* Safari 4
+* Firefox 3
+* Firefox 2
+* Opera 9.64
+* Internet Explorer 8
+* Internet Explorer 7
+* Internet Explorer 6
 
 h2. Usage
 
@@ -38,7 +46,7 @@ Written by Gianni Chiappetta - "Runlevel6":http://www.runlevel6.org/
 
 Contributions by Rob Sterner - "robsterner.com":http://robsterner.com/
 
-Contributions by Michael Harris - "http://harrisdev.net/"
+Contributions by Michael Harris - "harrisdev.net":http://harrisdev.net/
 
 And a special thanks to tfluehr from #prototype.
 

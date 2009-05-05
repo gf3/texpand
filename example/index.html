@@ -11,7 +11,7 @@
   <script type="text/javascript">
     document.observe("dom:loaded", function(){
       $$('.texpand').each(function(el){
-        new Texpand(el);
+        new Texpand(el, {autoShrink: true});
       });
     });
   </script>
