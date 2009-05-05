@@ -38,6 +38,8 @@ Written by Gianni Chiappetta - "Runlevel6":http://www.runlevel6.org/
 
 Contributions by Rob Sterner - "robsterner.com":http://robsterner.com/
 
+Contributions by Michael Harris - "http://harrisdev.net/"
+
 And a special thanks to tfluehr from #prototype.
 
 h3. Credits
