@@ -68,7 +68,12 @@ label {
   font-weight: bold;
   text-transform: uppercase;
 }
-
+.texpand
+{
+	width: 400px;
+	height: 1em;
+	font-family: arial;
+}
 
 
 
