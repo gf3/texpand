@@ -1,16 +1,16 @@
 /*
-	Site: Default styling
-	Date: 
-	Author: Gianni Chiappetta
-	Description: base style sheet
-	Author Notes:	
+  Site: Texpand Demo
+  Date: 
+  Author: Gianni Chiappetta
+  Description: base style sheet
+  Author Notes: 
 
-	WEB COLORS USED FOR THIS SITE
-	---------------------------------------------------------------------
-	#000000		Color			Used for: 
-	#000000		Color			Used for: 
-	#000000		Color			Used for: 	
-	---------------------------------------------------------------------
+  WEB COLORS USED FOR THIS SITE
+  ---------------------------------------------------------------------
+  #444444   Grey      Used for: Text
+  #a60203   Red       Used for: Links
+  #000000   Color     Used for:   
+  ---------------------------------------------------------------------
 */
 
 /************/
@@ -68,11 +68,9 @@ label {
   font-weight: bold;
   text-transform: uppercase;
 }
-.texpand
-{
-	width: 400px;
-	height: 1em;
-	font-family: arial;
+.texpand {
+  width: 400px;
+  font-family: Helvetica, Verdana, sans-serif;
 }
 
 

@@ -10,7 +10,7 @@
   <script src="../lib/texpand.js" type="text/javascript"></script>
   <script type="text/javascript">
     document.observe("dom:loaded", function(){
-		$('contentForm').reset();
+      $('contentForm').reset();
       $$('.texpand').each(function(el){
         new Texpand(el, {autoShrink: true});
       });
@@ -29,7 +29,7 @@
   <form id="contentForm" action="#" method="get">
     <div class="row">
       <label for="comment">Comment</label>
-      <textarea name="comment" id="comment" class="texpand">test                                                  type                                   after here</textarea>
+      <textarea name="comment" id="comment" class="texpand" rows="3">Try it        out for       yourself!</textarea>
     </div>
   </form>
 </div>
