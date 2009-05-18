@@ -34,6 +34,16 @@ Texpand is ridiculously simple to use, simply instantiate a new Texpand with eit
 
 It's actually that easy. You can apply any kind of styles you want – everything will be taken care of.
 
+h3. Options
+
+Texpand takes a number of options that you can use to modify its behavior:
+
+|_. Option |_. Default |_. Description |
+| autoShrink | false | Determines whether the textarea should shrink in size if text is removed. |
+| expandOnLoad | false | When this is _true_ it will expand the textarea to fit the default content when instantiated. |
+| increment | 15 | The _increment_ can be thought of as the amount of buffer space at the bottom of the textarea. |
+| onExpand | _function_ | Technically not an option, this is a callback that gets executed after the textarea expands/shrinks. It receives the _keyup_ event as its only parameter. |
+
 h2. Examples
 
 View "the demo":http://code.runlevel6.org/Texpand/. See the _examples/_ directory for demo source.
