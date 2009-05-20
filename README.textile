@@ -40,12 +40,16 @@ Texpand takes a number of options that you can use to modify its behavior:
 
 |_. Option |_. Default |_. Description |
 | autoShrink | false | Determines whether the textarea should shrink in size if text is removed. |
-| expandOnLoad | false | When this is _true_ it will expand the textarea to fit the default content when instantiated. |
 | expandOnFocus | true | When this is _true_ it will expand the textarea to fit the current content when the textarea receives focus. |
+| expandOnLoad | false | When this is _true_ it will expand the textarea to fit the default content when instantiated. |
+| increment | 15 | The _increment_ can be thought of as the amount of buffer space at the bottom of the textarea. It is expressed as an integer, but it is a pixel value. |
 | shrinkOnBlur | true | When this is _true_ it will shrink the textarea to it's initial size the textarea loses focus. |
 | tabSize | 4 | Any tab characters that are found in the textarea element will be replaced with _tabSize_ spaces. |
-| increment | 15 | The _increment_ can be thought of as the amount of buffer space at the bottom of the textarea. |
-| onExpand | _function_ | Technically not an option, this is a callback that gets executed after the textarea expands/shrinks. It receives the _keyup_ event as its only parameter. |
+
+h3. Callbacks
+
+|_. Callback |_. Description |
+| onExpand | This is a callback that gets executed after the textarea expands/shrinks. It receives the _keyup_ event as its only parameter. |
 
 h2. Examples
 
@@ -55,13 +59,13 @@ To see Texpand in production, check out "GigPark":http://www.gigpark.com/.
 
 h2. Authors
 
-Written by Gianni Chiappetta - "Runlevel6":http://www.runlevel6.org/
+Written by "Gianni Chiappetta":http://github.com/giannichiappetta - "Runlevel6":http://www.runlevel6.org/
 
-Contributions by Rob Sterner - "robsterner.com":http://robsterner.com/
+Contributions by "Rob Sterner":http://github.com/fermion - "robsterner.com":http://robsterner.com/
 
-Contributions by Michael Harris - "harrisdev.net":http://harrisdev.net/
+Contributions by "Michael Harris":http://github.com/mharris - "harrisdev.net":http://harrisdev.net/
 
-And a special thanks to tfluehr from #prototype.
+Contributions by "Tim Fluehr":http://github.com/tfluehr
 
 h3. Credits
 
