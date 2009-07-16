@@ -40,16 +40,29 @@ Texpand takes a number of options that you can use to modify its behavior:
 
 |_. Option |_. Default |_. Description |
 | autoShrink | false | Determines whether the textarea should shrink in size if text is removed. |
-| expandOnFocus | true | When this is _true_ it will expand the textarea to fit the current content when the textarea receives focus. |
+| expandOnFocus | false | When this is _true_ it will expand the textarea to fit the current content when the textarea receives focus. |
 | expandOnLoad | false | When this is _true_ it will expand the textarea to fit the default content when instantiated. |
 | increment | 15 | The _increment_ can be thought of as the amount of buffer space at the bottom of the textarea. It is expressed as an integer, but it is a pixel value. |
-| shrinkOnBlur | true | When this is _true_ it will shrink the textarea to it's initial size the textarea loses focus. |
+| shrinkOnBlur | false | When this is _true_ it will shrink the textarea to it's initial size the textarea loses focus. |
 | tabSize | 4 | Any tab characters that are found in the textarea element will be replaced with _tabSize_ spaces. |
 
 h3. Callbacks
 
 |_. Callback |_. Description |
 | onExpand | This is a callback that gets executed after the textarea expands/shrinks. It receives the _keyup_ event as its only parameter. |
+
+This is how one would provide options and callbacks to Texpand:
+
+<pre><code class="javascript">
+var t = new Texpand('bio', {
+  autoShrink: true,
+  expandOnFocus: true,
+  shrinkOnBlur: true,
+  onExpand: function(event) {
+    // Some fancy pants javascript
+  }
+});
+</code></pre>
 
 h2. Examples
 
