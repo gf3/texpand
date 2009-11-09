@@ -72,7 +72,7 @@ To see Texpand in production, check out "GigPark":http://www.gigpark.com/.
 
 h2. Authors
 
-Written by "Gianni Chiappetta":http://github.com/giannichiappetta - "Runlevel6":http://www.runlevel6.org/
+Written by "Gianni Chiappetta":http://github.com/gf3 - "gf3.ca":http://gf3.ca/
 
 Contributions by "Rob Sterner":http://github.com/fermion - "robsterner.com":http://robsterner.com/
 
